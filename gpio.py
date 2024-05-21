@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 
 # Set up LED pin
-led_pin = 18
+led_pin = 21
 GPIO.setup(led_pin, GPIO.OUT)
 
 while True:
